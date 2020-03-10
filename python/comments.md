@@ -5,15 +5,20 @@ Used linked list implementation using Node class. By doing so, the efficiency be
 
 #### Project2
 
-used recurrsive algorithm since the depth of the directory is not sure. The efficiency is O(n) for time and memory where n is number of folders + files 
+uUsed recurrsive algorithm since the depth of the directory is not sure. 
+Considering the recurssivenessl, space complexity is O (m x n) where m is the number of directories and n is the number of files per directory. This can be simplified as O(N) where N is the total number of files. 
+
+Time efficiency is O(n) where n is number of the files + directories
 
 #### Project3
 
-Huffman coding is good for compressing, but it seems the efficiency is not so much efficient. It is O(n), since it is needed to search all the nodes in worst cases. 
+Huffman coding is good for compressing, but it seems the efficiency is not so much efficient. It is O(n log(n)) since there is need of sorting at the beginning.
 
 #### Project4
 
-Used recurrsive algorithm since the depth is unknown. The efficiency is O(n) where n is number of groups and users
+Used recurrsive algorithm since the depth is unknown. 
+Memory efficiency is O(m) where m is the number of tree depth.
+Time efficiency is O(n) where n is the number of users
 
 #### Project5
 
