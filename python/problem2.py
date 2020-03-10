@@ -34,3 +34,19 @@ def find_files(suffix, path):
                 found_list.extend(list_to_add) 
 
     return found_list
+
+
+suffix = 'c'
+path = './testdir'
+
+find_files(suffix, path)
+
+suffix = 'a'
+path = './testdir'
+
+find_files(suffix, path)
+
+suffix = 'p'
+path = './testdir'
+
+find_files(suffix, path)
