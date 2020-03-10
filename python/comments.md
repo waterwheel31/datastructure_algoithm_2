@@ -12,12 +12,12 @@ Time efficiency is O(n) where n is number of the files + directories
 
 #### Project3
 
-Huffman coding is good for compressing, but it seems the efficiency is not so much efficient. It is O(n log(n)) since there is need of sorting at the beginning.
+Huffman coding is good for compressing, but it seems the efficiency is not so much efficient. It is O(n log(n)) since there is need of sorting at the beginning. 
 
 #### Project4
 
 Used recurrsive algorithm since the depth is unknown. 
-Memory efficiency is O(m) where m is the number of tree depth.
+Memory efficiency is O(m) where m is the number of groups.
 Time efficiency is O(n) where n is the number of users
 
 #### Project5
